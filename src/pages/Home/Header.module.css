@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray-700);
+  width: 100%;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 0.265rem;
+  padding: 4rem 4rem;
+}
+
+.heading p {
+  color: var(--blue);
+  font-family: 'Inter', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.heading em {
+  color: var(--purple);
+  font-style: normal;
+}

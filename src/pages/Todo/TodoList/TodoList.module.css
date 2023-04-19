@@ -1,0 +1,84 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 0.865rem;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.list-header span {
+  padding: 0.2rem 0.6rem;
+  border-radius: 15px;
+  background: var(--gray-500);
+}
+
+.list-content {
+  width: 100%;
+}
+
+.created-tasks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.created-tasks p {
+  color: var(--blue);
+}
+
+.finished-tasks {
+  display: flex;
+  align-items: center;
+  color: var(--gray-100);
+  gap: 10px;
+}
+
+.finished-tasks p {
+  color: var(--purple);
+}
+
+.trash-btn {
+  color: #7f7f7f;
+}
+
+.trash-btn:hover {
+  color: var(--danger);
+  cursor: pointer;
+}
+
+.empty-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 3rem 1rem 1rem 1rem;
+  border-top: 1px solid #333333;
+  border-radius: 8px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.865rem;
+  color: var(--gray-300);
+}
+
+.full-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: var(--gray-100);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.865rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: var(--gray-400);
+}
